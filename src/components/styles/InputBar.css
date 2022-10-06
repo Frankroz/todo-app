@@ -1,0 +1,31 @@
+#addBar {
+  margin: 10px;
+  margin-right: 0px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border: 1px solid var(--blue-color);
+  border-radius: 30px;
+  width: 23rem;
+}
+
+#addBar::placeholder {
+  color: var(--gray);
+}
+
+.addBtn {
+  margin: 10px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--blue-color);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.addBtn:hover {
+  color: var(--blue-color);
+  background-color: #fff;
+  border: 1px solid var(--blue-color);
+}

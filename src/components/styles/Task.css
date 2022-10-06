@@ -1,0 +1,38 @@
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--blue-color);
+  width: 23rem;
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.taskCheck {
+  margin: 0.5rem;
+  width: 1.2rem;
+  cursor: pointer;
+}
+
+.taskText {
+  width: 20rem;
+  margin: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.taskClose {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  color: var(--blue-color);
+  background-color: #fff;
+  border-radius: 9999px;
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
+}
+
+.taskClose:hover {
+  color: #fff;
+  background-color: var(--blue-color);
+}

@@ -1,3 +1,3 @@
-#ToDo App
+# ToDo app
 
-This is a simple ToDo list app created on React
+This project is a simple ToDo app created in React
