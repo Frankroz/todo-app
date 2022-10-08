@@ -3,9 +3,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  
+
   --blue-color: #668be5;
   --gray: #8a8a8a;
+  background-color: var(--blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
